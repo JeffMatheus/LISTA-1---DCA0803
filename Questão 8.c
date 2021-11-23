@@ -1,0 +1,3 @@
+Dado um vetor, o primeiro programa mostra em tela cada um de seus elementos, por meio de uma estrutura for. Cada um dos elementos é resultado da soma (vet + i), extraindo disso o conteúdo. Assim, para a posição 0 o valor mostrado é o próprio conteúdo do primeiro elemento e assim por diante.
+
+Dado um vetor, o segundo programa mostra em tela os endereços dos elemntos deste vetor, por meio de uma estrutura for. Cada um dos elementos é resultado da soma vet + 1, sem o uso de operador de derreferenciação. Logo, o resultado disso é o endereço de memória de cada um dos elementos.

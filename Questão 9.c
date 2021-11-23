@@ -1,0 +1,2 @@
+O primeiro toma um vetor de 3 elementos e por meio de um laço for apresenta-os um a um, conforme incremento no conteúdo do vetor, do primeiro ao último
+O segundo toma um vetor de 3 elementos e por meio de um laço for apresenta os seus endereços, um a um, conforme incremento no valor do endereço do vetor.

@@ -1,0 +1,8 @@
+Para as funções de saída de dados "printf" dentro do laço for, temos as seguintes respostas esperadas, para cada posição i do vetor:
+1º comando printf: exibe a posição i do elemento dentro do vetor.
+2º comando printf: exibe o conteúdo do elemento i do vetor, por meio de vet[i].
+3º comando printf: exibe o conteúdo da soma (f + i), isto é, o conteúdo do ponteiro f (endereço do elemento de posição 0 do vetor) incrementado de i elementos. 
+4º comando printf: exibe o endereço de memória do elemento i, por meio do operador de endereço &.
+5º comando printf: exibe o endereço de mémória do elemento i, por meio da operação f + 1. Esta operação significa tomar o conteúdo do ponteiro f (endereço do elemento de posição 0 do vetor) e incrementá-lo de i elementos, o que significa incrementar uma certa quantidade de bytes conforme o tipo de dado para o qual o ponteiro aponta.
+
+Obtiveram-se as respostas esperadas para todas as chamadas da função printf. Em particular, os dois últimos comandos resultaram nos endereços AC98DBB0, AC98DBB4, AC98DBB8, AC98DBBC, AC98DBC0, para cada elemento i, respectivamente. Convertendo de hexadecimal para decimal temos, respectivamente, 2895698864, 2895698868, 2895698872, 2895698876, 2895698880. Como era de se esperar, a compliação e execução do programa mostrou que os elementos do vetor estão espaçados a cada 4 bytes em memória virtual, o que condiz com o fato de que variáveis do tipo int ocupam 4 bytes em memória.
